@@ -7,13 +7,13 @@
 
     <title>We Do All Home Cleaners</title>
 
-    <!-- Fonts -->
+    {{-- <!-- Fonts --> --}}
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Styles -->
+    {{-- <!-- Styles --> --}}
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <!-- AlphineJS -->
+    {{-- <!-- AlphineJS --> --}}
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.js"></script>
 
@@ -41,11 +41,16 @@
 
         {{-- This div sits in front of the aboslute background. --}}
         <div class="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
-            <div>
+            <div
+                x-data="{ isOpen: false }"
+                >
                 {{-- Main Navigation Bar. --}}
-                <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+                <nav 
+                class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
                     aria-label="Global">
-                    <div class="flex items-center flex-1">
+                    <div 
+                    
+                    class="flex items-center flex-1">
 
                         {{-- Icon Placeholder --}}
                         <div class="flex items-center justify-between w-full md:w-auto">
@@ -92,11 +97,13 @@
                             <div class="-mr-2 flex items-center md:hidden">
 
                                 {{-- Open Main Menu Button --}}
-                                <button type="button"
+                                <button 
+                                @click="isOpen = !isOpen"
+                                type="button"
                                     class="bg-white rounded-md p-2 inline-flex items-center justify-center text-teal-400 hover:text-teal-500 hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
                                     aria-expanded="false">
                                     <span class="sr-only">Open main menu</span>
-                                    <!-- Heroicon name: outline/menu -->
+                                    {{-- <!-- Heroicon name: outline/menu --> --}}
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -120,7 +127,7 @@
 
                 </nav>
 
-                <!--
+                {{-- <!--
                             Mobile menu, show/hide based on menu open state.
                     
                             Entering: "duration-150 ease-out"
@@ -129,19 +136,39 @@
                             Leaving: "duration-100 ease-in"
                             From: "opacity-100 scale-100"
                             To: "opacity-0 scale-95"
-                        -->
-                <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-                    <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+                        --> --}}
+                <div 
+                    x-show="isOpen"
+                    x-transition:enter="transition ease-out duration-150 transform"
+                    x-transition:enter-start="opacity-0 scale-95"
+                    x-transition:enter-end="opacityu-100 scale-100"
+                    x-transition:leave="transition ease-in duration-100 transform"
+                    x-transition:leave-start="opacity-100 scale-100"
+                    x-transition:leave-end="opacity-0 scale-95"
+                    class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+                    <div 
+                        
+                        class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+
+                        {{-- X Svg with Logo which is currently hidden --}}
                         <div class="px-5 pt-4 flex items-center justify-between">
+
+                            {{-- Image Div --}}
                             <div>
                                 <img class="h-8 w-auto"
                                     src="https://tailwindui.com/img/logos/workflow-mark-teal-600.svg" alt="">
                             </div>
+
+                            {{-- Close Div --}}
                             <div class="-mr-2">
-                                <button type="button"
+
+                                {{-- Close Button --}}
+                                <button 
+                                    @click="isOpen = !isOpen"
+                                    type="button"
                                     class="bg-white rounded-md p-2 inline-flex items-center justify-center text-teal-400 hover:text-teal-500 hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
                                     <span class="sr-only">Close main menu</span>
-                                    <!-- Heroicon name: outline/x -->
+                                    {{-- Heroicon name: outline/x --}}
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -150,6 +177,8 @@
                                 </button>
                             </div>
                         </div>
+
+                        {{-- Navigation Mobile Buttons Lists --}}
                         <div class="px-2 pt-2 pb-3 space-y-1">
                             <a href="#"
                                 class="block px-3 py-2 rounded-md text-base font-medium text-teal-700 hover:text-teal-900 hover:bg-teal-50">Product</a>
@@ -163,9 +192,12 @@
                             <a href="#"
                                 class="block px-3 py-2 rounded-md text-base font-medium text-teal-700 hover:text-teal-900 hover:bg-teal-50">Company</a>
                         </div>
+
+                        {{-- Log on button which is hidden because we are not using a back end. --}}
                         <a href="#"
-                            class="block w-full px-5 py-3 text-center font-medium text-teal-600 bg-teal-50 hover:bg-teal-100">
+                            class="block w-full px-5 py-3 text-center font-medium text-teal-600 bg-teal-50 hover:bg-teal-100 hidden">
                             Log in </a>
+
                     </div>
                 </div>
             </div>
@@ -236,7 +268,7 @@
 
     {{-- About --}}
     <section>
-        <!-- This example requires Tailwind CSS v2.0+ -->
+        {{-- <!-- This example requires Tailwind CSS v2.0+ --> --}}
         <div class="relative bg-teal-800">
             <div class="absolute inset-0">
                 <img class="w-full h-full object-cover"
@@ -258,7 +290,7 @@
 
     {{-- Testimonials --}}
     <section>
-        <!-- This example requires Tailwind CSS v2.0+ -->
+        {{-- <!-- This example requires Tailwind CSS v2.0+ --> --}}
         <section class="py-12 bg-teal-50 overflow-hidden md:py-20 lg:py-24">
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <svg class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2"
@@ -313,7 +345,7 @@
 
     {{-- Contact --}}
     <section>
-        <!-- This example requires Tailwind CSS v2.0+ -->
+        {{-- <!-- This example requires Tailwind CSS v2.0+ --> --}}
         <div class="relative bg-teal-800">
             <div class="h-56 bg-teal-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
                 <img class="w-full h-full object-cover"
@@ -334,7 +366,7 @@
                             <a href="#"
                                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-teal-900 bg-white hover:bg-teal-50">
                                 Contact Us
-                                <!-- Heroicon name: solid/external-link -->
+                                {{-- <!-- Heroicon name: solid/external-link --> --}}
                                 <svg class="-mr-1 ml-3 h-5 w-5 text-teal-400" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path
