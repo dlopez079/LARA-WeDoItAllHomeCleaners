@@ -109,11 +109,7 @@
             </div>
             <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
                 <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">About Us</h1>
-                <p class="mt-6 text-xl text-teal-100 max-w-3xl">Mattis amet hendrerit dolor, quisque lorem pharetra.
-                    Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit
-                    justo viverra non adipisicing elit distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing
-                    elit. Dolorum, unde ut quasi accusamus culpa facilis, vero similique, perferendis blanditiis sed
-                    excepturi maiores obcaecati commodi explicabo! Deserunt eveniet velit ex totam!</p>
+                <p class="mt-6 text-xl text-teal-100 max-w-3xl">"We Do It All Home Cleaning" is a service that pervades cleaning for all size homes.   Whether it's just a regular cleaning or a special event, we are there to make sure that your home represents elegance and class.   We can help you design, organize, and sanitize if you are preparing for an occasion.  Our ten-plus years of experience assures that we will meet all your needs. </p>
             </div>
         </div>
 
