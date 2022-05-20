@@ -185,11 +185,9 @@
                 <div class="md:ml-auto md:w-1/2 md:pl-10">
                     <h2 class="text-base font-semibold uppercase tracking-wider text-teal-300">Award winning cleaning
                     </h2>
-                    <p class="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">We’re here to clean
+                    <p class="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">We’re here to clean your home
                     </p>
-                    <p class="mt-3 text-lg text-teal-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-                        egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum,
-                        augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
+                    <p class="mt-3 text-lg text-teal-300">We’re here to clean and help you feel at ease when you come home.  Reward yourself with the fragrance of relaxation every time you walk through your door by making an appointment with us as soon as you can.  Let us create the zen-like experience that you always desired.</p>
                     <div class="mt-8">
                         <div class="inline-flex rounded-md shadow">
                             <a href="#"
