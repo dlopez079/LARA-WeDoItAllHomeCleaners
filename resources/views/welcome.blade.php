@@ -186,9 +186,9 @@
                     <p class="mt-3 text-lg text-teal-300">We’re here to clean and help you feel at ease when you come home.  Reward yourself with the fragrance of relaxation every time you walk through your door by making an appointment with us as soon as you can.  Let us create the zen-like experience that you always desired.</p>
                     <div class="mt-8">
                         <div class="inline-flex rounded-md shadow">
-                            <a href="#"
+                            <a href="mailto:wedoitall.hc33@yahoo.com"
                                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-teal-900 bg-white hover:bg-teal-50">
-                                Contact Us
+                                Email Us
                                 {{-- <!-- Heroicon name: solid/external-link --> --}}
                                 <svg class="-mr-1 ml-3 h-5 w-5 text-teal-400" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
