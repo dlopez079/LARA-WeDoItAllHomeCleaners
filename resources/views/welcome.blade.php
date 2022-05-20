@@ -234,24 +234,43 @@
 
                     <blockquote class="mt-10">
                         <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-teal-900">
-                            <p>Contact Information</p>
+                            <p>Schedule an appointment</p>
                         </div>
                         <footer class="mt-8">
                             <div class="md:flex md:items-center md:justify-center">
                                 <div class="md:flex-shrink-0">
                                     <img class="mx-auto h-10 w-10 rounded-full"
-                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/151260958_138673488118862_3224695892452085682_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tLDnoRSXPYcAX-pwJJ6&_nc_ht=scontent-mia3-2.xx&oh=00_AT-djJke8Ri3YDqIZd9x2uyqoQ3ElGhNA5emw7v4L0JvWA&oe=62AD661F"
                                         alt="">
                                 </div>
                                 <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                                    <div class="text-base font-medium text-teal-900">Nisa Petrilli</div>
+                                    <div class="text-base font-medium text-teal-900">Milca Collazo</div>
 
                                     <svg class="hidden md:block mx-1 h-5 w-5 text-teal-600" fill="currentColor"
                                         viewBox="0 0 20 20">
                                         <path d="M11 0h3L9 20H6l5-20z" />
                                     </svg>
 
-                                    <div class="text-base font-medium text-teal-500">Realtor</div>
+                                    <div class="text-base font-medium text-teal-500">(347) 879-7225</div>
+                                </div>
+                            </div>
+                        </footer>
+                        <footer class="mt-8">
+                            <div class="md:flex md:items-center md:justify-center">
+                                <div class="md:flex-shrink-0">
+                                    <img class="mx-auto h-10 w-10 rounded-full"
+                                        src="https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/251732355_1945363692304751_4875223445273569819_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=eDJAo5MAS0YAX8JalHA&_nc_ht=scontent-mia3-2.xx&oh=00_AT8bngNj5_9iRGLjDfDG1Fuq8sr8p3KnUoj7VaOy9xD3vw&oe=628D8590"
+                                        alt="Patricia Collazo">
+                                </div>
+                                <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                                    <div class="text-base font-medium text-teal-900">Patricia Collazo</div>
+
+                                    <svg class="hidden md:block mx-1 h-5 w-5 text-teal-600" fill="currentColor"
+                                        viewBox="0 0 20 20">
+                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                    </svg>
+
+                                    <div class="text-base font-medium text-teal-500">(929) 299-7557</div>
                                 </div>
                             </div>
                         </footer>
