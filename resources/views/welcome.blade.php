@@ -52,15 +52,11 @@
                                 class="block text-sm font-semibold uppercase tracking-wide text-teal-500 sm:text-base lg:text-sm xl:text-base">Coming
                                 soon</span>
                             <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                                <span class="block text-teal-900">We Do All Your</span>
+                                <span class="block text-teal-900">We Do All</span>
                                 <span class="block text-teal-600">Home Cleaning</span>
                             </span>
                         </h1>
-                        <p class="mt-3 text-base text-teal-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Anim aute id
-                            magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                            fugiat veniam occaecat fugiat aliqua ad ad non deserunt sunt. Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Necessitatibus magni dolor quis aliquam? Soluta, ea sequi,
-                            ipsam possimus sunt eligendi natus quis et, quam optio ad minima nemo quibusdam maxime.
+                        <p class="mt-3 text-base text-teal-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">If you don't have time to clean, We Do It All Home Cleaning is here to help.  Let us clean your kitchen, bathroom, bedroom, living room, and dining room.  We travel throughout the city with our excellent cleaning products and instruments to ensure that your home remains pristine.  We guarantee your life will be easier and more enjoyable.
                         </p>
 
                     </div>
